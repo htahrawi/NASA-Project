@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.nav{
+    height: 8vh;
+    background-color: rgba(97, 37, 37, 0.842);
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+.nav h2{
+    color: white;
+}
+#search_form{
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+label{
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+.bday{
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    outline: none;
+    border: 1px solid black;
+}
+.apiContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.image{
+    width: 450px;
+    height: 450px;
+}
